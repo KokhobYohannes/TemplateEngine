@@ -35,7 +35,7 @@ function createManager() {
             message: "What is the team manager's office ID?",
             validate: answer => {
                 const pass = answer.match(
-                    /^[1-9]\d*S/
+                    /^[1-9]\d*$/
                 );
                 if (pass) {
                     return true;
@@ -63,7 +63,7 @@ function createManager() {
             message: "What is the manager's office number?",
             validate: answer => {
                 const pass = answer.match(
-                    /^[1-9]\d*S/
+                    /^[1-9]\d*$/
                 );
                 if (pass) {
                     return true;
@@ -124,7 +124,7 @@ function addEngineer() {
             message: "What is the engineer office ID?",
             validate: answer => {
                 const pass = answer.match(
-                    /^[1-9]\d*S/
+                    /^[1-9]\d*$/
                 );
                 if (pass) {
                     return true;
@@ -184,7 +184,7 @@ function addIntern() {
             message: "What is the intern office ID?",
             validate: answer => {
                 const pass = answer.match(
-                    /^[1-9]\d*S/
+                    /^[1-9]\d*$/
                 );
                 if (pass) {
                     return true;
