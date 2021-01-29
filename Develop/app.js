@@ -224,9 +224,20 @@ function addIntern() {
         createTeam();
     });
 }
+function buildTeam(){
+    if (!fs.existsSync(OUTPUT_DIR)) {
+        fs.mkdirSync(OUTPUT_DIR)
+    }
 
-function buildTeam() {
-    fs.writeFileSync(outputPath, render(teamMembers), "utf-8");
+    const fileName = `${OUTPUT_DIR}/team.html`;
+
+    if (fs.existsSync(fileName)) {
+        fs.unlinkSync(fileName);
+    }
+
+    fs.writeFileSync(fileName, render(teamMembers), "utf-8");
+}
+function buildTeam2() {
 }
 
 
