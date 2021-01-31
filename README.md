@@ -9,8 +9,8 @@ A CLI node.js app created to generate an employee summary for a manager, an engi
 2) Run node.js
 
 **Screenshots:**
-<img src = "02-Homework/Assets/Userdetails.png">
-<img src = "02-Homework/Assets/Myteam.png">
+![ Image 1]("02-Homework/Assets/Userdetails.png")
+![ Image 2]("02-Homework/Assets/Myteam.png")
 
 **Acknowledgements:**
 1) Reviewed and utilized class homework video walk through as a guide 
